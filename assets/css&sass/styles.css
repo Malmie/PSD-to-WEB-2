@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Cardo|Open+Sans|Raleway");
+/* GLOBAL */
 * {
   box-sizing: border-box; }
 
 body {
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-family: "Raleway", sans-serif; }
 
 header {
   height: 750px;
@@ -14,47 +16,56 @@ header {
     height: 100px;
     background-color: transparent;
     border: none;
-    padding-top: 25px; }
+    padding-top: 25px;
+    text-transform: uppercase;
+    margin-bottom: 0; }
   header .line {
-    width: 80%;
+    width: 85%;
     height: 1px;
     background-color: rgba(255, 255, 255, 0);
     box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.15);
     position: absolute;
     top: 100px;
     left: 0;
-    right: 0; }
+    right: 0;
+    margin-bottom: 0;
+    margin-top: 0; }
+  header .header-content {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 100px; }
+  header .text-top {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 71px;
+    text-transform: uppercase; }
+  header .text-bottom {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    padding: 50px 0; }
+  header .header-button {
+    border-radius: 2px;
+    border: none;
+    background-color: #e84545;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 41px;
+    width: 250px; }
 
-/* .header .text-top {
-	font-family: OpenSans;
-	color: #ffffff;
-	font-size: 65px;
-	font-weight: 700;
-	line-height: 71px;
-} */
-/* .header .text-bottom {
-	font-family: Raleway;
-	color: #ffffff;
-	font-size: 22px;
-	font-weight: 400;
-	line-height: 33px;
-} */
-/* .header button {
-	border-radius: 2px;
-	background-color: #e84545;
-	font-family: Raleway;
-	color: #ffffff;
-	font-size: 13px;
-	font-weight: 600;
-	line-height: 21px;
-} */
 /* .info h2 {
 	font-family: Raleway;
 	color: #2d3033;
 	font-size: 14px;
 	font-weight: 700;
-} */
-/* .info p {
+}
+.info p {
 	font-family: Raleway;
 	color: #6c7279;
 	font-size: 14px;
