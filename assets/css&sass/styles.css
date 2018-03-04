@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Cardo|Open+Sans|Raleway");
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0 auto; }
+
+header {
+  height: 750px;
+  width: 100%;
+  background-image: url("../img/Layer_34.png");
+  position: relative; }
+  header .navbar {
+    height: 100px;
+    background-color: transparent;
+    border: none;
+    padding-top: 25px; }
+  header .line {
+    width: 80%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.15);
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0; }
+
+/* .header .text-top {
+	font-family: OpenSans;
+	color: #ffffff;
+	font-size: 65px;
+	font-weight: 700;
+	line-height: 71px;
+} */
+/* .header .text-bottom {
+	font-family: Raleway;
+	color: #ffffff;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 33px;
+} */
+/* .header button {
+	border-radius: 2px;
+	background-color: #e84545;
+	font-family: Raleway;
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 21px;
+} */
+/* .info h2 {
+	font-family: Raleway;
+	color: #2d3033;
+	font-size: 14px;
+	font-weight: 700;
+} */
+/* .info p {
+	font-family: Raleway;
+	color: #6c7279;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+} */
+/* .staff h2 {
+	font-family: Raleway;
+	color: #2d3033;
+	font-size: 22px;
+	font-weight: 400;
+} */
+/* .staff h3 {
+	font-family: Raleway;
+	color: #e84545;
+	font-size: 13px;
+	font-weight: 400;
+} */
+/* .staff p {
+	font-family: Raleway;
+	color: #6c7279;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+} */
+/* .carousel {
+	background-color: #53354a;
+} */
+/* .carousel .quotation {
+	font-family: Cardo;
+	color: #ffffff;
+	font-size: 36px;
+	font-style: italic;
+	line-height: 42px;
+} */
+/* .carousel .author {
+	font-family: Raleway;
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 21px;
+} */
+/* .download h1 {
+	font-family: Raleway;
+	color: #2d3033;
+	font-size: 28px;
+	font-weight: 300;
+	line-height: 21px;
+} */
+/* .download p {
+	font-family: Raleway;
+	color: #2d3033;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 21px;
+} */
+/* .download button {
+	font-family: Raleway;
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 21px;
+	border-radius: 2px;
+	background-color: #e84545;
+} */
+/* .contact-content {
+	background-color: #3a3e64;
+} */
+/* .contact h1 {
+	font-family: Raleway;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 700;
+} */
+/* .contact p {
+	font-family: Raleway;
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22.5px;
+} */
+/* footer {
+	background-color: #313454;
+	height: 94px;
+	width: 100%;
+}
+footer p {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22.5px;
+	font-family: Raleway;
+	color: #808080;
+} */
+
+/*# sourceMappingURL=styles.css.map */
