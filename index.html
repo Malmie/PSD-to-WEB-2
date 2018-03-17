@@ -15,8 +15,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>PSD to WEB 2</title>
+	<link rel="stylesheet" href="assets/css&sass/magnific-popup.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css&sass/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 
 <body>
@@ -91,28 +93,65 @@
 			</div>
 		</div>
 	</section>
+
 	<section class="gallery">
-		<div class="gallery-content"></div>
-		
+		<div class="popup-gallery row container-fluid hideme">
+			<div class="col-xs-12 col-md-4"><a href="assets/img/desk1.png" title="Project nr 1" class="thumbnail"><img src="assets/img/desk1.png"></a><h4>Click for more details</h4></div>
+			<div class="col-xs-12 col-md-4"><a href="assets/img/desk2.png" title="Project nr 2" class="thumbnail"><img src="assets/img/desk2.png"></a><h4>Click for more details</h4></div>
+			<div class="col-xs-12 col-md-4"><a href="assets/img/desk3.png" title="Project nr 3" class="thumbnail"><img src="assets/img/desk3.png"></a><h4>Click for more details</h4></div>
+<!-- 			<div class="col-xs-12 col-md-3"><a href="assets/img/desk7.png" title="Project nr 5" class="thumbnail"><img src="assets/img/desk7-min.png"></a><h4>Click for more details</h4></div> -->
+		</div>		
 	</section>
-<!-- 	<section class="staff">
-		<h2>Ruth Woods</h2>
-		<h3>Founder, CEO</h3>
-		<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.
-		</p>
-		<h2>Timothy Reed</h2>
-		<h3>Co-Founder, Developer</h3>
-		<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.
-		</p>
-		<h2>Victoria Valdez</h2>
-		<h3>UI Designer</h3>
-		<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.
-		</p>
-		<h2>Beverly Little</h2>
-		<h3>Data Scientist</h3>
-		<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.
-		</p>
-	</section> -->
+
+	<section class="staff">
+		<div class="staff-content container">
+			<div class="row">
+				<div class="col-sm-6 col-md-3">
+			    	<div class="thumbnail">
+			      		<img src="assets/img/ruth.png" alt="Ruth Woods">
+			      		<div class="caption">
+			      			<h2>Ruth Woods</h2>
+							<h3>Founder, CEO</h3>
+							<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+			      		</div>
+			    	</div>
+				</div>
+
+				<div class="col-sm-6 col-md-3">
+			    	<div class="thumbnail">
+			      		<img src="assets/img/timothy.png" alt="Timothy Reed">
+			      		<div class="caption">
+			      			<h2>Timothy Reed</h2>
+							<h3>Co-Founder, Developer</h3>
+							<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+			      		</div>
+			    	</div>
+			    </div>	
+
+				<div class="col-sm-6 col-md-3">
+			    	<div class="thumbnail">
+			      		<img src="assets/img/victoria.png" alt="Victoria Valdez">
+			      		<div class="caption">
+			      			<h2>Victoria Valdez</h2>
+							<h3>UI Designer</h3>
+							<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+			      		</div>
+			    	</div>
+				</div>
+
+				<div class="col-sm-6 col-md-3">
+			    	<div class="thumbnail">
+			      		<img src="assets/img/beverly.png" alt="Beverly Little">
+			      		<div class="caption">
+			      			<h2>Beverly Little</h2>
+							<h3>Data Scientist</h3>
+							<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+			      		</div>
+			    	</div>
+				</div>
+			</div>	
+		</div>
+	</section>
 <!-- 	<section class="carousel">
 		<p class="quotation">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”
 		</p>
@@ -142,8 +181,7 @@
 		<p>Copyright © 2015 ActiveBox. All Right Reserved Made with Y by Kamal Chaneman
 		</p>
 	</footer>	 -->
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="assets/js/jquery.magnific-popup.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="assets/js/scripts.js"></script>
 </body>

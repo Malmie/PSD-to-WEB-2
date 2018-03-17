@@ -117,7 +117,7 @@ header {
 
 [class*="col-"] {
   float: left;
-  min-width: 1px;
+  min-height: 1px;
   padding: 20px; }
 
 .info {
@@ -138,24 +138,41 @@ header {
   .info .info-col:hover img {
     transform: rotateY(360deg); }
 
-/* .staff h2 {
-	font-family: Raleway;
-	color: #2d3033;
-	font-size: 22px;
-	font-weight: 400;
-} */
-/* .staff h3 {
-	font-family: Raleway;
-	color: #e84545;
-	font-size: 13px;
-	font-weight: 400;
-} */
+.popup-gallery {
+  text-align: center !important; }
+  .popup-gallery [class*="col-"] {
+    position: relative; }
+    .popup-gallery [class*="col-"]:hover h4 {
+      opacity: 1; }
+  .popup-gallery h4 {
+    text-transform: uppercase;
+    position: relative;
+    bottom: 120px;
+    color: #fff;
+    background-color: rgba(232, 69, 69, 0.7);
+    padding: 5px;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; }
+
+.staff h2 {
+  color: #2d3033;
+  font-size: 22px;
+  font-weight: 400; }
+.staff h3 {
+  color: #e84545;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase; }
+.staff p {
+  color: #6c7279;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px; }
+
 /* .staff p {
 	font-family: Raleway;
-	color: #6c7279;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 21px;
+
 } */
 /* .carousel {
 	background-color: #53354a;
