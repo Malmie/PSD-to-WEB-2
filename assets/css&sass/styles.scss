@@ -69,15 +69,17 @@ header {
 		border: none;
 		background-color: $dark;
 		text-transform: uppercase; 
-		color: $bright;
 		font-size: 13px;
 		font-weight: 600;
 		line-height: 41px;
 		width: 250px;
 		transition: 1s;
 		&:hover {
-			color: $dark;
 			background-color: $bright;
+		}
+		&:hover a {
+			color: $dark;
+			text-decoration: none;
 		}
 	} 
 }

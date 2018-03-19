@@ -9,18 +9,24 @@ $(document).ready(function(){
             }        
         });   
     });
-    //SMOOTH SCROLLING
-	$("a").on('click', function(event){
-	    if (this.hash !== "") {
-	  		event.preventDefault();
-	  		var hash = this.hash;
-	  		$('html, body').animate({
-	    	scrollTop: $(hash).offset().top
-	  		},800,function() {
-	    	window.location.hash = hash;
-	  		});
-	  	}
-  	});
+    
+    // SMOOTH SCROLLING
+	$('a').on('click', function(e) { 
+		var el = $(e.target.getAttribute('href'));
+		var elOffset = el.offset().top;
+		var elHeight = el.height();
+		var windowHeight = $(window).height();
+		var offset;
+
+		if (elHeight < windowHeight) {
+			offset = elOffset - ((windowHeight / 2) - (elHeight / 2));
+		} else {
+			offset = elOffset;
+		}
+
+		var speed = 700;
+		$('html, body').animate({scrollTop:offset}, speed);
+		});
 
     //POPUP GALLERY
     $('.popup-gallery').magnificPopup({

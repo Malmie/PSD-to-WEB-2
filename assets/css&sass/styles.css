@@ -56,15 +56,16 @@ header {
     border: none;
     background-color: #e84545;
     text-transform: uppercase;
-    color: #fff;
     font-size: 13px;
     font-weight: 600;
     line-height: 41px;
     width: 250px;
     transition: 1s; }
     header .header-button:hover {
-      color: #e84545;
       background-color: #fff; }
+    header .header-button:hover a {
+      color: #e84545;
+      text-decoration: none; }
 
 .hideme {
   opacity: 0; }
