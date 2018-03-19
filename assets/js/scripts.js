@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+	// ELEMENTS APPEARANCE
     $(window).scroll( function(){ 
         $('.hideme').each( function(i){        
             var bottom_of_object = $(this).offset().top + $(this).outerHeight();
@@ -9,7 +9,7 @@ $(document).ready(function(){
             }        
         });   
     });
-
+    //POPUP GALLERY
     $('.popup-gallery').magnificPopup({
 		delegate: 'a',
 		type: 'image',
