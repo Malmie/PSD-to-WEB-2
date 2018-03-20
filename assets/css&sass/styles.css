@@ -217,7 +217,11 @@ header {
 
 @media (max-width: 767px) {
   header .navbar a {
-    background-color: #313454; }
+    background-color: #313454;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    header .navbar a:hover {
+      background-color: #313454 !important; }
   header .line {
     display: none; }
   header .header-content {

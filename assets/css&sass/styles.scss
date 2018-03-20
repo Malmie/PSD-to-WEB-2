@@ -247,6 +247,11 @@ header {
 		.navbar {
 			a {
 				background-color: #313454;
+				padding-top: 15px;
+				padding-bottom: 15px;
+				&:hover {
+					background-color: #313454!important;
+				}
 			}
 		}
 		.line {
