@@ -7,6 +7,9 @@ body {
   margin: 0 auto;
   font-family: "Raleway", sans-serif; }
 
+a {
+  color: #fff; }
+
 a:link {
   color: #fff; }
 
@@ -66,6 +69,8 @@ header {
     header .header-button:hover a {
       color: #e84545;
       text-decoration: none; }
+    header .header-button #features {
+      color: #fff; }
 
 .hideme {
   opacity: 0; }
@@ -174,46 +179,6 @@ header {
     font-weight: 400;
     line-height: 21px; }
 
-/* .carousel {
-	background-color: #53354a;
-} */
-/* .carousel .quotation {
-	font-family: Cardo;
-	color: #ffffff;
-	font-size: 36px;
-	font-style: italic;
-	line-height: 42px;
-} */
-/* .carousel .author {
-	font-family: Raleway;
-	color: #ffffff;
-	font-size: 13px;
-	font-weight: 700;
-	line-height: 21px;
-} */
-/* .download h1 {
-	font-family: Raleway;
-	color: #2d3033;
-	font-size: 28px;
-	font-weight: 300;
-	line-height: 21px;
-} */
-/* .download p {
-	font-family: Raleway;
-	color: #2d3033;
-	font-size: 13px;
-	font-weight: 700;
-	line-height: 21px;
-} */
-/* .download button {
-	font-family: Raleway;
-	color: #ffffff;
-	font-size: 13px;
-	font-weight: 600;
-	line-height: 21px;
-	border-radius: 2px;
-	background-color: #e84545;
-} */
 .contact-content {
   background-color: #3a3e64;
   margin: 0 auto; }
@@ -267,6 +232,9 @@ header {
 
   .center, .info {
     margin: 50px auto; }
+
+  .popup-gallery [class*="col-"] {
+    max-height: 280px; }
 
   .contact-content [class*="col-"] {
     padding: 25px 0; }

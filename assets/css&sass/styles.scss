@@ -15,6 +15,9 @@ body {
 	margin: 0 auto;
 	font-family: $font-main;
 }
+a {
+	color: $bright;
+}
 a:link {
 	color: $bright;
 }
@@ -80,6 +83,9 @@ header {
 		&:hover a {
 			color: $dark;
 			text-decoration: none;
+		}
+		#features {
+			color: $bright;
 		}
 	} 
 }
@@ -187,46 +193,6 @@ header {
 	}
 }
 
-/* .carousel {
-	background-color: #53354a;
-} */
-/* .carousel .quotation {
-	font-family: Cardo;
-	color: #ffffff;
-	font-size: 36px;
-	font-style: italic;
-	line-height: 42px;
-} */
-/* .carousel .author {
-	font-family: Raleway;
-	color: #ffffff;
-	font-size: 13px;
-	font-weight: 700;
-	line-height: 21px;
-} */
-/* .download h1 {
-	font-family: Raleway;
-	color: #2d3033;
-	font-size: 28px;
-	font-weight: 300;
-	line-height: 21px;
-} */
-/* .download p {
-	font-family: Raleway;
-	color: #2d3033;
-	font-size: 13px;
-	font-weight: 700;
-	line-height: 21px;
-} */
-/* .download button {
-	font-family: Raleway;
-	color: #ffffff;
-	font-size: 13px;
-	font-weight: 600;
-	line-height: 21px;
-	border-radius: 2px;
-	background-color: #e84545;
-} */
 // CONTACT
 .contact-content {
 	background-color: #3a3e64;
@@ -299,6 +265,11 @@ header {
 	}
 	.center {
 		margin: 50px auto;
+	}
+	.popup-gallery {
+		[class*="col-"] {
+			max-height: 280px;
+		}	
 	}
 	.contact-content {
 		[class*="col-"] {
