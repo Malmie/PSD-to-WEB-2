@@ -90,7 +90,7 @@ header {
 }
 .center {
 	max-width: 80%;
-	margin: 100px auto;
+	margin: 0 auto;
 }
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -114,13 +114,14 @@ header {
 [class*="col-"] {
 	float: left;
 	min-height: 1px;
-    padding: 20px; 
+	padding: 20px; 
 }
 
 // INFO
 .info {
 	@extend .center;
 		text-align: center;
+		padding-top: 100px;
 		img {
 			transition: transform .8s ease-in-out;
 			cursor: pointer;
@@ -148,6 +149,7 @@ header {
 .popup-gallery {
 	text-align: center!important;
 	margin: 0 auto;
+	padding-top: 100px; 
 	[class*="col-"] {
 		position: relative;
 		&:hover h4 {
@@ -273,7 +275,13 @@ header {
 		opacity: 1;
 	}
 	.center {
-		margin: 50px auto;
+		margin: 0 auto;
+	}
+	.info {
+		padding-top: 50px;
+	}
+	.popup-gallery {
+		padding-top: 50px;
 	}
 	.contact-content {
 		[class*="col-"] {
