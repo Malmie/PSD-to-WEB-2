@@ -8,6 +8,12 @@ $bright: #fff;
 $main-color: #6c7279;
 $head-color: #2d3033;
 
+@mixin transition($time) {
+	-webkit-transition: $time;
+	-moz-transition: $time;
+	-o-transition: $time;
+	border-radius: $time;
+}
 * {
 	box-sizing: border-box;
 }
@@ -26,7 +32,7 @@ a:link {
 header {
 	height: 100vh;
 	width: 100%;
-	background-image: url("../img/hero.png");
+	background-image: url("../img/hero-min.png");
 	position: relative;
 	.navbar {
 		height: 100px;	
@@ -77,7 +83,7 @@ header {
 		font-size: 13px;
 		font-weight: 600;
 		line-height: 41px;
-		transition: 1s;
+		@include transition (1s);
 		&:hover {
 			background-color: $bright;
 			color: $dark;
@@ -123,6 +129,9 @@ header {
 		text-align: center;
 		padding-top: 100px;
 		img {
+			-moz-transition: transform .8s ease-in-out;
+			-webkit-transition: transform .8s ease-in-out;
+			-o-transition: transform .8s ease-in-out;
 			transition: transform .8s ease-in-out;
 			cursor: pointer;
 	 	}		
@@ -140,6 +149,9 @@ header {
 		}
 		.info-col {
 			&:hover img {
+			-webkit-transform: rotateY(360deg);
+			-moz-transform: rotateY(360deg);
+			-ms-transform: rotateY(360deg);
 	 		transform: rotateY(360deg);
 	 		}
 	}
@@ -165,6 +177,9 @@ header {
 		padding: 5px;
 		font-size: 18px;
 		opacity: 0;
+		-webkit-transition: opacity 0.5s ease-in-out;
+		-moz-transition: opacity 0.5s ease-in-out;
+		-o-transition: opacity 0.5s ease-in-out;
 		transition: opacity 0.5s ease-in-out;
 	}
 }
