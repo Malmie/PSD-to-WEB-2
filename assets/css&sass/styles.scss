@@ -184,9 +184,45 @@ header {
 	}
 }
 
+//CAROSUEL
+.carousel {
+	background-color: #533549;
+	width: 100%;
+	position: relative;
+	color: #fff;
+	margin-top: 100px;
+	.carousel-photo {
+		padding: 0;
+	}
+		.carousel-photo img {
+			width: 100%;
+		}
+	.carousel-caption {
+		text-align: left;
+		top: 40px;
+		left: 40px;
+		position: relative;
+		width: 95%;
+	}	
+	.quotation {
+		font-family: Cardo;
+		font-size: 24px;
+		font-style: italic;
+		line-height: 42px;
+		margin-bottom: 5%;
+	}
+	.author {
+		font-family: $font-main;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 21px;
+	}
+}
+
 // STAFF
 .staff {
 	margin: 50px auto 70px auto;
+	padding-top: 100px;
 	h2 {
 		color: $head-color;
 		font-size: 22px;
@@ -244,7 +280,7 @@ header {
 			}	
 		}
 	}	
-}		
+}	 
 
 // FOOTER
 .footer-content {
@@ -296,6 +332,31 @@ header {
 		padding-top: 50px;
 	}
 	.popup-gallery {
+		padding-top: 50px;
+	}
+	.carousel {
+		margin-top: 50px;
+		.carousel-caption {
+			text-align: center;
+			top: 0;
+			left: 0;
+			position: relative;
+			width: 100%;
+		}	
+		.quotation {
+			font-size: 18px;
+			line-height: 36px;
+			margin-bottom: 10px;
+		}
+		.author {
+			font-size: 12px;
+			font-weight: 300;
+		}
+		.carousel-indicators {
+			bottom: 0px;
+		}
+	}
+	.staff {
 		padding-top: 50px;
 	}
 	.contact-content {
